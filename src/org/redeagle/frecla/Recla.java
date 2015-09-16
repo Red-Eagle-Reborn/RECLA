@@ -25,9 +25,6 @@ import javax.swing.text.PlainDocument;
 
 
 class JTextFieldLimit extends PlainDocument {
-  /**
-	 * 
-	 */
 	private static final long serialVersionUID = -2163618420474377210L;
 private int limit;
   JTextFieldLimit(int limit) {
@@ -262,7 +259,131 @@ public class Recla extends JFrame {
 					   if(tj[i].equals("Z")) {
 						   res += "M";
 					   }
+					   if(tj[i].equals("1")) {
+						   res += "1";
+					   }
+					   if(tj[i].equals("2")) {
+						   res += "2";
+					   }
+					   if(tj[i].equals("3")) {
+						   res += "3";
+					   }
+					   if(tj[i].equals("4")) {
+						   res += "4";
+					   }
+					   if(tj[i].equals("5")) {
+						   res += "5";
+					   }
+					   if(tj[i].equals("6")) {
+						   res += "6";
+					   }
+					   if(tj[i].equals("7")) {
+						   res += "7";
+					   }
+					   if(tj[i].equals("8")) {
+						   res += "8";
+					   }
+					   if(tj[i].equals("9")) {
+						   res += "9";
+					   }
+					   if(tj[i].equals("0")) {
+						   res += "0";
+					   }
 					   
+					   if(tj[i].equals(",")) {
+						   res += ",";
+					   }
+					   if(tj[i].equals("<")) {
+						   res += "<";
+					   }
+					   if(tj[i].equals(".")) {
+						   res += ".";
+					   }
+					   if(tj[i].equals(">")) {
+						   res += ">";
+					   }
+					   if(tj[i].equals("/")) {
+						   res += "/";
+					   }
+					   if(tj[i].equals("?")) {
+						   res += "?";
+					   }
+					   if(tj[i].equals("'")) {
+						   res += "'";
+					   }
+					   if(tj[i].equals("\"")) {
+						   res += "\"";
+					   }
+					   if(tj[i].equals(";")) {
+						   res += ";";
+					   }
+					   if(tj[i].equals(":")) {
+						   res += ":";
+					   }
+					   if(tj[i].equals("\\")) {
+						   res += "\\";
+					   }
+					   if(tj[i].equals("]")) {
+						   res += "]";
+					   }
+					   if(tj[i].equals("}")) {
+						   res += "}";
+					   }
+					   if(tj[i].equals("[")) {
+						   res += "[";
+					   }
+					   if(tj[i].equals("{")) {
+						   res += "{";
+					   }
+					   if(tj[i].equals("+")) {
+						   res += "+";
+					   }
+					   if(tj[i].equals("=")) {
+						   res += "=";
+					   }
+					   if(tj[i].equals("-")) {
+						   res += "-";
+					   }
+					   if(tj[i].equals("_")) {
+						   res += "_";
+					   }
+					   if(tj[i].equals(")")) {
+						   res += ")";
+					   }
+					   if(tj[i].equals("(")) {
+						   res += "(";
+					   }
+					   if(tj[i].equals("*")) {
+						   res += "*";
+					   }
+					   if(tj[i].equals("&")) {
+						   res += "&";
+					   }
+					   if(tj[i].equals("^")) {
+						   res += "^";
+					   }
+					   if(tj[i].equals("%")) {
+						   res += "%";
+					   }
+					   if(tj[i].equals("$")) {
+						   res += "$";
+					   }
+					   if(tj[i].equals("#")) {
+						   res += "#";
+					   }
+					   if(tj[i].equals("@")) {
+						   res += "@";
+					   }
+					   if(tj[i].equals("!")) {
+						   res += "!";
+					   }
+					   if(tj[i].equals("~")) {
+						   res += "~";
+					   }
+					   if(tj[i].equals("`")) {
+						   res += "`";
+					   }
+				   
 					   if(tj[i].equals(" ")) {
 						   res += " ";
 					   }
